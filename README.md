@@ -173,32 +173,6 @@ For detailed help, see [COMPLETE_GUIDE_v2.2.txt](COMPLETE_GUIDE_v2.2.txt)
 
 ---
 
-## 🔧 For Developers
-
-### Build from Source
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run from source
-python pc_optimizer_v2.py
-```
-
-### Build Protected Executable
-
-```bash
-# Install PyArmor
-pip install pyarmor
-
-# Build protected version (AES-256 encrypted)
-BUILD_PROTECTED.bat
-```
-
-**Note:** Source code (`.py` files) is NOT included in this repository to protect intellectual property. Only documentation and build scripts are provided.
-
----
-
 ## 📜 License
 
 **Proprietary Software**
