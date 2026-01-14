@@ -1,0 +1,135 @@
+# ════════════════════════════════════════════════════════════════════
+# SneakyBloop's PC Optimizer - Git Ignore File
+# Prevents sensitive/unnecessary files from being uploaded to GitHub
+# ════════════════════════════════════════════════════════════════════
+
+# ============================================================================
+# CRITICAL - NEVER UPLOAD THESE (Source Code Protection)
+# ============================================================================
+
+# DO NOT upload unprotected Python source code!
+# This is your intellectual property - keep it private!
+pc_optimizer_v2.py
+pc_optimizer_clean.py
+pc_optimizer*.py
+
+# License keys and sensitive data
+license.key
+*.key
+config.ini
+secrets.json
+
+# ============================================================================
+# Python Environment & Dependencies
+# ============================================================================
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ============================================================================
+# User Data & Runtime Files (Generated during use)
+# ============================================================================
+
+# Backup files (user-specific)
+pc_optimizer_backup.json
+backup_*.json
+
+# Benchmark data (user-specific)
+benchmark_data.json
+
+# Log files (user-specific)
+pc_diagnostic_*.txt
+*.log
+
+# Update downloads
+updates/
+*.exe.download
+*.tmp
+
+# ============================================================================
+# Development & IDE Files
+# ============================================================================
+
+# VS Code
+.vscode/
+.vs/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================================
+# What WILL be uploaded (Safe for public):
+# ============================================================================
+
+# ✓ Documentation (.txt, .md files)
+# ✓ README files
+# ✓ Build scripts (.bat files) - these are safe
+# ✓ Requirements.txt
+# ✓ .gitignore (this file)
+# ✓ LICENSE file
+# ✓ PROTECTED/COMPILED .exe files (optional - can use GitHub Releases)
+
+# ============================================================================
+# Notes:
+# ============================================================================
+
+# This .gitignore ensures:
+# 1. Your Python source code stays PRIVATE (only you have it)
+# 2. Users only get the compiled/protected .exe version
+# 3. User data (backups, logs) doesn't get uploaded
+# 4. GitHub repo is clean and professional
+
+# To upload your PROTECTED version:
+# 1. Build with BUILD_PROTECTED.bat first
+# 2. Upload the dist/pc_optimizer_v2.exe to GitHub Releases
+# 3. Never upload the unprotected .py files!

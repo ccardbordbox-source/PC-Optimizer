@@ -1,0 +1,8 @@
+# PC Health & Optimization Tool - Requirements
+#
+# Install with: pip install -r requirements.txt
+# Or in venv: .venv\Scripts\pip install -r requirements.txt
+
+wmi>=1.5.1
+psutil>=5.9.0
+pywin32>=305
