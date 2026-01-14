@@ -1,9 +1,9 @@
 {
-  "version": "2.3.0",
-  "download_url": "https://github.com/ccardbordbox-source/PC-Optimizer/releases/download/v2.3.0/PC_Optimizer_v2.3.0.exe",
-  "changelog": "• System Monitoring Dashboard (Live stats)\n• Disk Cleanup (Temp files + Recycle Bin)\n• Internet Speed Test (Ping + Download)\n• RAM Optimizer (Clear standby memory)\n• Expanded Hardware Info (GPU VRAM, Mobo, Storage)",
-  "critical": true,
-  "release_date": "2026-01-14",
-  "min_windows_version": "10.0",
-  "sha256": "E08C777F85598F87651029CE6B59DE5E0CE5BE240891ACAED3749FA129774516"
+    "version":  "2.3.1",
+    "download_url":  "https://github.com/ccardbordbox-source/PC-Optimizer/releases/download/v2.3.1/PC_Optimizer_v2.3.1.exe",
+    "changelog":  "• System Monitoring Dashboard (Live stats)\n• Disk Cleanup (Temp files + Recycle Bin)\n• Internet Speed Test (Ping + Download)\n• RAM Optimizer (Clear standby memory)\n• Expanded Hardware Info (GPU VRAM, Mobo, Storage)",
+    "critical":  true,
+    "release_date":  "2026-01-14",
+    "min_windows_version":  "10.0",
+    "sha256":  "9B06FC1EF3C1AA256A862A7E2981D1877CE2CF20AB0A0F32C14852D6154DA2DC"
 }
