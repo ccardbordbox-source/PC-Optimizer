@@ -1,9 +1,9 @@
 {
   "version": "2.2.0",
-  "download_url": "https://github.com/ccardbordbox-source/PC-Optimizer/releases/download/v2.2.0/PC_Optimizer_v2.2.0.exe",
+  "download_url": "https://github.com/ccardbordbox-source/PC-Optimizer/releases/download/V2.2/PC_Optimizer_v2.2.exe",
   "changelog": "• Before/After Benchmark Comparison\n• Network Optimizations (3 new)\n• Storage Optimizations (2 new)\n• Temperature Monitoring\n• Auto-Update System\n• Full Copyright Protection",
   "critical": false,
   "release_date": "2026-01-14",
   "min_windows_version": "10.0",
-  "sha256": "PLACEHOLDER_HASH_CALCULATE_AFTER_BUILD"
+  "sha256": "C87E747EB424832F4BC65F568B0FAB13A1D532EC76DC0C43232CFEC4785E74AD"
 }
